@@ -1,0 +1,56 @@
+{
+  "classes": [
+    "rogue",
+    "warrior",
+    "mage",
+    "archer"
+  ],
+  "classDetails": {
+    "rogue": {
+      "stats": {
+        "hitpoints": 7,
+        "sneak": 7,
+        "melee": 6,
+        "range": 4,
+        "mage": 5,
+        "defense": 4
+      },
+      "description": "Rogues are very sneaky with balanced attributes. They have a high sneak ability."
+
+    },
+    "warrior": {
+      "stats": {
+        "hitpoints": 9,
+        "sneak": 3,
+        "melee": 8,
+        "range": 2,
+        "mage": 1,
+        "defense": 7
+      },
+      "description": "Warriors are strong at close quarters and have high hitpoints, melee and defense."
+    },
+    "mage": {
+      "stats": {
+        "hitpoints": 7,
+        "sneak": 5,
+        "melee": 2,
+        "range": 2,
+        "mage": 10,
+        "defense": 2
+      },
+      "description": "Mages are very powerful and strong at a far range, but they have low defensive stats."
+
+    },
+    "archer": {
+      "stats": {
+        "hitpoints": 7,
+        "sneak": 6,
+        "melee": 2,
+        "range": 9,
+        "mage": 2,
+        "defense": 3
+      },
+      "description": "Archers are strong at a far range, but have low defensive stats."
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import 'default.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 16px 32px;
+}
+
+.default-page {
+  padding: 16px;
+}
+
+form {
+  padding: 16px;
+  border: 1px solid black;
+}
+
+input {
+  padding: 4px;
+}
+
+.input-field {
+  margin-bottom: 16px;
+}
+.input-field h5 {
+  margin-bottom: 4px;
+}
+
+.dropdown, .dropdown-content {
+  padding: 8px;
+  border: 1px solid grey;
+  cursor: pointer;
+  position: relative;
+}
+.dropdown .dropdown-content, .dropdown-content .dropdown-content {
+  opacity: 0;
+}
+.dropdown:hover, .dropdown-content:hover {
+  background-color: aliceblue;
+}
+.dropdown:hover .dropdown-content, .dropdown-content:hover .dropdown-content {
+  opacity: 1;
+}
+
+.dropdown-content {
+  transition: opacity 0.25s ease;
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
+.canvas {
+  border: 1px solid black;
+}
+
+.color-palette {
+  border: 1px solid black;
+  padding: 8px;
+  position: relative;
+}
+
+.draw-content {
+  gap: 16px;
+}
+
+#colorInput {
+  height: 60px;
+  width: 100%;
+}
+
+#palette {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.palette-box {
+  height: 40px;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+.palette-box:hover {
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=main.css.map */
